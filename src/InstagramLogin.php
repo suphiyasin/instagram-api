@@ -92,7 +92,7 @@ private function getChallendeContext($response){
 		$url = $this->apibase.'/api/v1/accounts/two_factor_login/';
 		$paramsjson = '{"verification_code":"'.$code.'","phone_id":"3d15a79d-f8ae-4083-ba88-100c85648ed7","two_factor_identifier":"'.$twoid.'","username":"'.$username.'","trust_this_device":"1","guid":"3993b830-5663-47ad-bd9f-902dab9b4050","device_id":"android-80dbc8a0c0ab2a40","waterfall_id":"e07ccca7-f73c-4bcf-9db1-1f000e380024","verification_method":"'.$verifiytype.'"}';
 		$params = 'signed_body=SIGNATURE.'.urlencode($paramsjson);
-		var_dump($params);
+		//var_dump($params);
 		$sendRequest = $this->postforlogin($url, $params);
 		if(isset($myjson['status']) and $myjson['status'] == "ok"){
 			$pk = $myjson['logged_in_user']['pk'];
@@ -115,7 +115,7 @@ private function getChallendeContext($response){
 		$params = 'signed_body=SIGNATURE.'.urlencode($paramsjson);
 		$sendRequest = $this->postforlogin($url, $params);
 		$myjson = json_decode($sendRequest, true);
-			var_dump($sendRequest);
+			//var_dump($sendRequest);
 		if(isset($myjson['status']) and $myjson['status'] == "ok"){
 			$pk = $myjson['logged_in_user']['pk'];
 			$fbid = $myjson['logged_in_user']['fbid_v2'];
