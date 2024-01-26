@@ -166,29 +166,29 @@ will be cached and your operation will run faster.
 ```php
 <?php
 
-    require __DIR__ . '/vendor/autoload.php';
-    
-    use suphiyasin\Instagram\Instagram;
-    
-    $api = new Instagram();
-    $username = 'username';
-    $password = 'password';
+require __DIR__ . '/vendor/autoload.php';
 
-  $login = json_decode($api->login->loginv2($username, $password), true);
-    if($login["Status"] == "ok"){
-        echo 'Login success';
-    }else{
-        echo 'Login Fail';
-    }
+use SuphiGram\Instagram\Instagram;
 
-    //LOGIN CONTROL
-    $login_control = $instagram->login->MyCache("token");
-    if(strlen($login_control) > 0){
-        echo 'Token exist';
-    }else{
-        echo 'Token not not exist';
-    }
-  
+$api = new Instagram();
+
+$username = 'username';
+$password = 'password';
+
+$login = json_decode($api->login->loginv2($username, $password), true);
+if ($login["Status"] == "ok") {
+    echo 'Login success';
+} else {
+    echo 'Login Fail';
+}
+
+// LOGIN CONTROL
+$login_control = $api->login->MyCache("token"); // Fix the variable name to use $api instead of $instagram
+if (strlen($login_control) > 0) {
+    echo 'Token exists'; // Correct the typo in the echo statement
+} else {
+    echo 'Token does not exist'; // Correct the typo in the echo statement
+}
 
 ```
 
