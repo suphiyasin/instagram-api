@@ -70,7 +70,7 @@
 | Search                                 | :heavy_check_mark:                 |
 | Get users feed                         | :heavy_check_mark:                 |
 | Like a post                            | :heavy_check_mark:                 |
-| Get code from duo seed function        | :x:<br/>(telegram: @suphi007)      |  
+| Get code from duo seed function        | :lock:<br/>(telegram: @suphi007)      |  
 
 | Feature                                | Instagram Web API                     | 
 |----------------------------------------|-----------------------------------|
