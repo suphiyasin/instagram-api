@@ -1,0 +1,41 @@
+{
+    "name": "suphigram/instagram",
+    "description": "Bloks Instagram API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SuphiGram\\Instagram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yasin",
+            "email": "yasin@suphi.org"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/suphiyasin/instagram-api"
+        }
+    ],
+
+    "require": {
+        "suphigram/instagram": "dev-master"
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "SuphiGram\\Instagram\\Tests\\": "tests/"
+        }
+    },
+
+    "scripts": {
+        "test": "phpunit tests/"
+    }
+}
