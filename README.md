@@ -17,11 +17,8 @@
 <p align="center">
     With this PHP library, you can use all features of the instagram Mobile App
     <br />
-    <a href="#">Demo</a>
-    ·
-    <a href="https://github.com/suphiyasin/Instagram/issues">Feedback</a>
-    <br>
-    <a href="https://github.com/suphiyasin/Instagram/blob/main/README-TR.md" style="font-size:24px">Türkçe doküman için tıklayın</a>
+    <a href="https://github.com/suphiyasin/instagram/issues">Feedback</a>
+
   
   
 </p>
@@ -81,14 +78,6 @@
 | Get Recommended Users                  | :heavy_check_mark:                | 
 
 
-
-
-
-
-## FAQ
-
-<a href="https://github.com/suphiyasin/Instagram/blob/main/docs/en/faq.md">GO
-FAQ</a>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
