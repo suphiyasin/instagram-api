@@ -70,6 +70,7 @@
 | Search                                 | :heavy_check_mark:                 |
 | Get users feed                         | :heavy_check_mark:                 |
 | Like a post                            | :heavy_check_mark:                 |
+| Get code from duo seed function        | :x:<br/>(telegram: @suphi007)      |  
 
 | Feature                                | Instagram Web API                     | 
 |----------------------------------------|-----------------------------------|
@@ -140,7 +141,7 @@ Give permission to the following files and folders with chmod 777.
 * you must determine your root(working) folder after that open console (
   terminal )
   ```sh
-  composer require suphiyasin/Instagram
+  composer require suphigram/instagram
   ```
 
 ## Installing via download Repository
@@ -205,7 +206,7 @@ code.
 
     require __DIR__ . '/vendor/autoload.php';
     
-    use suphiyasin\Instagram\Instagram;
+   use SuphiGram\Instagram\Instagram;
     
     $api = new Instagram();
     $username = 'username';
