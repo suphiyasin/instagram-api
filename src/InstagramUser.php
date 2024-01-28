@@ -101,6 +101,37 @@ public function FindBackUpCodes($response){
 	}
 	
 
+	public function getFollows($userid = null){
+		$userid = $userid ?? $this->MyCache("pk");
+		$url = $this->apibase.'/api/v1/friendships/'.$userid.'/following/?includes_hashtags=true&search_surface=follow_list_page&query=&enable_groups=true';
+		$sendRequest = $this->getwithcookie($url, null);
+		return $sendRequest;
+	}
+	
+	public function getFollowers($userid = null){
+		$userid = $userid ?? $this->MyCache("pk");
+		$url = $this->apibase.'/api/v1/friendships/'.$userid.'/followers/?search_surface=follow_list_page&query=&enable_groups=true';
+		$sendRequest = $this->getwithcookie($url, null);
+		return $sendRequest;
+	}
+	
+	public function SearchInFollows($userid = null, $query){
+		$userid = $userid ?? $this->MyCache("pk");
+		$url = $this->apibase.'/api/v1/friendships/'.$userid.'/following/?includes_hashtags=true&search_surface=follow_list_page&query='.$query.'&enable_groups=true';
+		$sendRequest = $this->getwithcookie($url, null);
+		return $sendRequest;
+	}
+
+
+	public function SearchInFollowers($userid = null, $query){
+		$userid = $userid ?? $this->MyCache("pk");
+		$url = $this->apibase.'/api/v1/friendships/'.$userid.'/followers/?search_surface=follow_list_page&query='.$query.'&enable_groups=true';
+		$sendRequest = $this->getwithcookie($url, null);
+		return $sendRequest;		
+	}
+	
+
+	
 
 	public function comment($token = null, $userid = null, $mediaid, $text){
 		//mode = test
