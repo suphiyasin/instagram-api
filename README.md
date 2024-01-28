@@ -55,6 +55,8 @@
 | Unlike a post                          | :heavy_check_mark:                 |
 | Follow                                 | :heavy_check_mark:                 |
 | Unfollow                               | :heavy_check_mark:                 |
+| Get Follows                            | :heavy_check_mark:<br/>(Searchable)|
+| Get Followers                          | :heavy_check_mark:<br/>(Searchable)|
 | Create Note                            | :heavy_check_mark:                 |
 | Delete Note                            | :heavy_check_mark:                 |
 | Get Comments                           | :heavy_check_mark:                 |
