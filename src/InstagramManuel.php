@@ -86,7 +86,17 @@ if (!empty($mails[0]['id'])) {
 		return $sendRequest;
 	}
 	
-
+	public function getReelsInfo($x){
+		if (strpos($x, "https://") === 0) {
+			$step1 = explode("/", $x);
+			$id = $step1[4];
+		} else {
+			$id = $x;
+		}
+		$url = $this->apibase.'/api/v1/clips/item/?clips_media_shortcode='.$id;
+		$sendRequest = $this->getwithcookie($url, null);
+		return $sendRequest;
+	}
 	
 	
 	
