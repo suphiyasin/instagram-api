@@ -111,6 +111,9 @@ and returns server responses.
 
 <!-- GETTING STARTED -->
 
+## Updates
+Added followers and follows
+
 ## Getting Started
 
 Please read carefully.
