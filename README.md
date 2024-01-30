@@ -113,6 +113,7 @@ and returns server responses.
 
 ## Updates
 Added followers and follows
+Added Reels informations
 
 ## Getting Started
 
