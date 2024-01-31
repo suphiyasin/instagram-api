@@ -282,24 +282,24 @@ Website : [https://suphi.org](https://suphi.org) <br/>
 Email: yasin@suphi.org <br/>
 Telegram: [@suphi007](https://t.me/suphi007) <br/>
 
-[contributors-shield]: https://img.shields.io/github/contributors/suphiyasin/Instagram.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/suphiyasin/instagram-api.svg?style=for-the-badge
 
-[contributors-url]: https://github.com/suphiyasin/Instagram/graphs/contributors
+[contributors-url]: https://github.com/suphiyasin/instagram-api/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/suphiyasin/Instagram.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/suphiyasin/instagram-api.svg?style=for-the-badge
 
 [forks-url]: https://github.com/suphiyasin/Instagram/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/suphiyasin/Instagram.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/suphiyasin/instagram-api.svg?style=for-the-badge
 
-[stars-url]: https://github.com/suphiyasin/Instagram/stargazers
+[stars-url]: https://github.com/suphiyasin/instagram-api/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/suphiyasin/Instagram.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/suphiyasin/instagram-api.svg?style=for-the-badge
 
-[issues-url]: https://github.com/suphiyasin/Instagram/issues
+[issues-url]: https://github.com/suphiyasin/instagram-api/issues
 
-[license-shield]: https://img.shields.io/github/license/suphiyasin/Instagram.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/suphiyasin/instagram-api.svg?style=for-the-badge
 
-[license-url]: https://github.com/suphiyasin/Instagram/blob/main/LICENSE
+[license-url]: https://github.com/suphiyasin/instagram-api/blob/main/LICENSE
 
 [instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=for-the-badge&logo=Instagram&colorB=555
