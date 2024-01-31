@@ -3,12 +3,12 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/suphiyasin/instagram&count_bg=%23C83D3D&title_bg=%23057386&icon=&icon_color=%23BA0808&title=View&edge_flat=false)](https://github.com/suphiyasin/instagram)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/suphiyasin/instagram-api&count_bg=%23C83D3D&title_bg=%23057386&icon=&icon_color=%23BA0808&title=View&edge_flat=false)](https://github.com/suphiyasin/instagram)
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-<a href="https://github.com/suphiyasin/Instagram/">
+<a href="https://github.com/suphiyasin/instagram-api/">
 <img src="https://cdn.cdnlogo.com/logos/i/4/instagram.svg" alt="Logo" width="80" height="80" />
 </a>
 
@@ -17,7 +17,7 @@
 <p align="center">
     With this PHP library, you can use all features of the instagram Mobile App
     <br />
-    <a href="https://github.com/suphiyasin/instagram/issues">Feedback</a>
+    <a href="https://github.com/suphiyasin/instagram-api/issues">Feedback</a>
 
   
   
