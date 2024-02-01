@@ -12,7 +12,7 @@
 <img src="https://cdn.cdnlogo.com/logos/i/4/instagram.svg" alt="Logo" width="80" height="80" />
 </a>
 
-<h3 align="center">Suphiyasin / Instagram</h3>
+<h3 align="center">Suphiyasin / Instagram-API</h3>
 
 <p align="center">
     With this PHP library, you can use all features of the instagram Mobile App
