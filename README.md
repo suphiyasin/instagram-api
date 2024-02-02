@@ -112,7 +112,7 @@ and returns server responses.
 <!-- GETTING STARTED -->
 
 ## Updates
-Added Reels informations
+Coding TikTok :)
 
 ## Getting Started
 
