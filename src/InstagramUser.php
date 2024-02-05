@@ -198,7 +198,11 @@ public function FindBackUpCodes($response){
 	}
 
 
-
+	public function getRecommendedUsers($token = null, $userid){
+		$url = $this->apibase.'/api/v1/discover/chaining/?module=profile&target_id='.$userid;
+		$sendRequest = $this->getwithcookie($url);
+		return $sendRequest;
+	}
 
 	public function likePost($token = null, $mediaid){
 		$url = $this->apibase.'/api/v1/media/'.$mediaid.'/like/';
