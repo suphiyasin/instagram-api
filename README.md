@@ -112,7 +112,7 @@ and returns server responses.
 <!-- GETTING STARTED -->
 
 ## Updates
-Added recommend users for mobile dervice
+
 
 ## Getting Started
 
