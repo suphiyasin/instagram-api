@@ -8,7 +8,7 @@ class InstagramRequest{
 	public $proxyus = null;
 	
 
-public function post($url, $data, $header){ 
+public function post($url, $data, $header = null){ 
 $uid = uniqid();
 $headers = $this->getHeaders(null, $uid, $data);
 $ch = curl_init();
@@ -79,7 +79,7 @@ foreach ($headers as $header) {
 
 
 
-public function postwithcookie($url, $data, $header){ 
+public function postwithcookie($url, $data, $header = null){ 
 $uid = uniqid();
 $token = $header ?? $this->MyCache("token");
 $headers = $this->Headerv2($token, $uid, $data);
@@ -105,7 +105,7 @@ return $response;
 }
 
 
-public function getwithcookie($url, $header){ 
+public function getwithcookie($url, $header = null){ 
 $uid = uniqid();
 $token = $header ?? $this->MyCache("token");
 $headers = $this->Headerv2($token, $uid, null);
