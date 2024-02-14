@@ -85,6 +85,14 @@ if (!empty($mails[0]['id'])) {
 		$sendRequest = $this->getwithcookie($url, $token);
 		return $sendRequest;
 	}
+
+		public function getStory($token = null, $userid = null){
+		$token = $token ?? $this->MyCache("token");
+		$userid = $userid ?? $this->userid;
+		$url = $this->apibase.'/api/v1/feed/user/'.$userid.'/story/?supported_capabilities_new=%5B%7B%22name%22%3A%22SUPPORTED_SDK_VERSIONS%22%2C%22value%22%3A%22131.0%2C132.0%2C133.0%2C134.0%2C135.0%2C136.0%2C137.0%2C138.0%2C139.0%2C140.0%2C141.0%2C142.0%2C143.0%2C144.0%2C145.0%2C146.0%2C147.0%2C148.0%2C149.0%2C150.0%2C151.0%2C152.0%2C153.0%2C154.0%2C155.0%2C156.0%2C157.0%2C158.0%2C159.0%22%7D%2C%7B%22name%22%3A%22FACE_TRACKER_VERSION%22%2C%22value%22%3A%2214%22%7D%2C%7B%22name%22%3A%22segmentation%22%2C%22value%22%3A%22segmentation_enabled%22%7D%2C%7B%22name%22%3A%22COMPRESSION%22%2C%22value%22%3A%22ETC2_COMPRESSION%22%7D%2C%7B%22name%22%3A%22gyroscope%22%2C%22value%22%3A%22gyroscope_enabled%22%7D%5D';
+		$sendRequest = $this->getwithcookie($url, $token);
+		return $sendRequest;
+	}
 	
 	public function getReelsInfo($x){
 		if (strpos($x, "https://") === 0) {
