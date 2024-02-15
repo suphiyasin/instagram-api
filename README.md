@@ -68,6 +68,7 @@
 | Get Recommended Users                  | :heavy_check_mark:                 |
 | Search                                 | :heavy_check_mark:                 |
 | Get users feed                         | :heavy_check_mark:                 |
+| Get users story                        | :heavy_check_mark:                 |
 | Like a post                            | :heavy_check_mark:                 |
 | Get Likers                             | :heavy_check_mark:                 |
 | Get code from duo seed function        | :lock:<br/>(telegram: @suphi007)      |  
