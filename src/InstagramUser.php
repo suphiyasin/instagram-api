@@ -83,7 +83,12 @@ public function FindBackUpCodes($response){
 		return $sendRequest;
 	}
 
-
+	public function saveMedia($mediaid){
+		$url = $this->apibase.'/api/v1/media/'.$mediaid.'/save/';
+		$params = 'signed_body=SIGNATURE.%7B%22inventory_source%22%3A%22media_or_ad%22%2C%22delivery_class%22%3A%22organic%22%2C%22module_name%22%3A%22feed_timeline%22%2C%22client_position%22%3A%222%22%2C%22ranking_info_token%22%3A%22bc76079f1d55423489c6193e8e647496%22%2C%22radio_type%22%3A%22wifi-none%22%2C%22_uid%22%3A%2263730780111%22%2C%22_uuid%22%3A%2269f73a0d-e663-4a2b-a7e9-56f38e1ad5a2%22%2C%22nav_chain%22%3A%22MainFeedFragment%3Afeed_timeline%3A1%3Acold_start%3A1708154730.212%3A%3A%22%7D';
+		$sendRequest = $this->postwithcookie($url, $params);
+		return $sendRequest;
+	}
 
 
 	public function getComments($mediaid){
