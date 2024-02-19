@@ -292,7 +292,7 @@ Telegram: [@suphi007](https://t.me/suphi007) <br/>
 
 [forks-shield]: https://img.shields.io/github/forks/suphiyasin/instagram-api.svg?style=for-the-badge
 
-[forks-url]: https://github.com/suphiyasin/Instagram/network/members
+[forks-url]: https://github.com/suphiyasin/instagram-api/network/members
 
 [stars-shield]: https://img.shields.io/github/stars/suphiyasin/instagram-api.svg?style=for-the-badge
 
