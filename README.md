@@ -53,6 +53,7 @@
 | Upload new profile photo               | :heavy_check_mark:                 |
 | Like a post                            | :heavy_check_mark:                 |
 | Unlike a post                          | :heavy_check_mark:                 |
+| Save a post                            | :heavy_check_mark:                 |
 | Follow                                 | :heavy_check_mark:                 |
 | Unfollow                               | :heavy_check_mark:                 |
 | Get Follows                            | :heavy_check_mark:<br/>(Searchable)|
