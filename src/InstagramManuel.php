@@ -105,7 +105,7 @@ if (!empty($mails[0]['id'])) {
 		$sendRequest = $this->getwithcookie($url, null);
 		return $sendRequest;
 	}
-	public function getLikersFromPost(){
+	public function getLikersFromPost($mediaid){
 		$url = $this->apibase.'/api/v1/media/'.$mediaid.'/likers/';
 		$sendRequest = $this->getwithcookie($url);
 		return $sendRequest;
