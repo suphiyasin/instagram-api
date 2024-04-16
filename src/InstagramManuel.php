@@ -93,6 +93,13 @@ if (!empty($mails[0]['id'])) {
 		$sendRequest = $this->getwithcookie($url, $token);
 		return $sendRequest;
 	}
+
+		public function getMoreMedia($userid = null, $nextmediaid){
+		$userid = $userid ?? $this->userid;
+		$url = $this->apibase.'/api/v1/feed/user/'.$userid.'/?exclude_comment=true&max_id='.$nextmediaid.'&only_fetch_first_carousel_media=false';
+		$sendRequest = $this->getwithcookie($url, null);
+		return $sendRequest;
+	}
 	
 	public function getReelsInfo($x){
 		if (strpos($x, "https://") === 0) {
