@@ -202,7 +202,11 @@ public function FindBackUpCodes($response){
 		return $sendRequest;
 	}
 
-
+	public function getMessages(){
+		$url = $this->apibase.'/api/v1/direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20&is_prefetching=false&fetch_reason=manual_refresh';
+		$sendRequest = $this->getwithcookie($url, null);
+		return $sendRequest;
+	}
 	public function getRecommendedUsers($token = null, $userid){
 		$url = $this->apibase.'/api/v1/discover/chaining/?module=profile&target_id='.$userid;
 		$sendRequest = $this->getwithcookie($url);
