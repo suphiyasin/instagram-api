@@ -249,6 +249,13 @@ public function FindBackUpCodes($response){
 		$sendRequest = $this->postwithcookie($url, $params, null);
 		return $sendRequest;
 	}
+
+	public function addCloseFriend($userid){
+	$url = $this->apibase.'/api/v1/stories/private_stories/add_member/';
+	$params = 'module=audience_selection&source=settings&user_id='.$userid.'&_uuid=69f73a0d-e663-4a2b-a7e9-56f38e1ad5a2';
+	$sendRequest = $this->postwithcookie($url, $params);
+	return $sendRequest;
+	}
 	
 	
 
