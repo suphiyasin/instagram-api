@@ -72,6 +72,7 @@
 | Get users story                        | :heavy_check_mark:                 |
 | Like a post                            | :heavy_check_mark:                 |
 | Get Likers                             | :heavy_check_mark:                 |
+| Add Close Friend                       | :heavy_check_mark:                 |
 | Get code from duo seed function        | :lock:<br/>(telegram: @suphi007)      |  
 
 | Feature                                | Instagram Web API                     | 
