@@ -125,23 +125,7 @@ Please read carefully.
 
 ### Requirements
 
-- You must have to "composer" application on your PC. For
-  installation  https://getcomposer.org/download/
 - PHP 7.4 or above
-
-### File permissions
-
-Give permission to the following files and folders with chmod 777.
-
-`/vendor/suphiyasin/`
-
-## Setup via Composer
-
-* you must determine your root(working) folder after that open console (
-  terminal )
-  ```sh
-  composer require suphigram/instagram
-  ```
 
 ## Installing via download Repository
 
