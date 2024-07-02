@@ -131,7 +131,7 @@ Please read carefully.
 
 1. Firsty download repository
    ```sh
-   git clone https://github.com/suphiyasin/Instagram.git
+   git clone https://github.com/suphiyasin/instagram-api.git
    ```
 2. Use the command below to download the required libraries.
    ```sh
