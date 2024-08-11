@@ -247,39 +247,41 @@ return $headers;
 	
 public function getHeaders($token = null, $uid = null, $data = null) {
     $headers = [
- 'Host: i.instagram.com',
-'X-Ig-App-Locale: tr_TR',
-'X-Ig-Device-Locale: tr_TR',
-'X-Ig-Mapped-Locale: tr_TR',
-'X-Pigeon-Session-Id: UFS-fd65ff98-adee-4d96-b227-73f00735792f-0',
+	'Host: i.instagram.com',
+    'X-Ig-App-Locale: tr_TR',
+    'X-Ig-Device-Locale: tr_TR',
+    'X-Ig-Mapped-Locale: tr_TR',
+    'X-Pigeon-Session-Id: UFS-868014ae-d41b-4d40-acb6-1ffd8c17d3b7-0',
 'X-Pigeon-Rawclienttime: ' . microtime(true),
-'X-Ig-Bandwidth-Speed-Kbps: 7741.000',
-'X-Ig-Bandwidth-Totalbytes-B: 1563745',
-'X-Ig-Bandwidth-Totaltime-Ms: 386',
-'X-Bloks-Version-Id: 8ca96ca267e30c02cf90888d91eeff09627f0e3fd2bd9df472278c9a6c022cbb',
-'X-Ig-Www-Claim: 0',
-'X-Bloks-Is-Layout-Rtl: false',
-'X-Ig-Device-Id: 1454e61f-8663-44eb-aeb0-b4a57de1a886',
-'X-Ig-Family-Device-Id: 798b5830-be4a-4e76-88f4-156470b80946',
-'X-Ig-Android-Id: android-cf52b5adef29344e',
-'X-Ig-Timezone-Offset: 10800',
-'X-Ig-Nav-Chain: SelfFragment:self_profile:2:main_profile:1716804979.389::,ProfileMediaTabFragment:self_profile:3:button:1716804980.1::,AccountSwitchFragment:account_switch_fragment:4:button:1716804980.423::,AddAccountBottomSheetFragment:add_account_bottom_sheet:5:button:1716804981.477::,LoginLandingFragment:login_landing:6:button:1716804985.346::',
-'X-Fb-Connection-Type: WIFI',
-'X-Ig-Connection-Type: WIFI',
-'X-Ig-Capabilities: 3brTv10=',
-'X-Ig-App-Id: 567067343352427',
-'Priority: u=3',
-'User-Agent: Instagram 275.0.0.27.98 Android (28/9; 320dpi; 1080x1920; samsung; SM-G977N; d2q; qcom; tr_TR; 458229257)',
-'Accept-Language: tr-TR, en-US',
-'X-Mid: ZlTptgABAAFCTS3QkVe6ju4i72cw',
-'Ig-Intended-User-Id: 0',
-'Content-Type: application/x-www-form-urlencoded; charset=UTF-8',
-    'Content-Length: ' . (is_null($data) ? 0 : strlen($data)),
+    'X-Ig-Bandwidth-Speed-Kbps: 608.000',
+    'X-Ig-Bandwidth-Totalbytes-B: 176994',
+    'X-Ig-Bandwidth-Totaltime-Ms: 291',
+    'X-Bloks-Version-Id: 8ca96ca267e30c02cf90888d91eeff09627f0e3fd2bd9df472278c9a6c022cbb',
+    'X-Ig-Www-Claim: 0',
+    'X-Bloks-Is-Layout-Rtl: false',
+    'X-Ig-Device-Id: 69f73a0d-e663-4a2b-a7e9-56f38e1ad5a2',
+    'X-Ig-Family-Device-Id: 798b5830-be4a-4e76-88f4-156470b80946',
+    'X-Ig-Android-Id: android-cf52b5adef29344e',
+    'X-Ig-Timezone-Offset: 10800',
+    'X-Ig-Nav-Chain: SelfFragment:self_profile:2:main_profile:1723336885.441::,ProfileMenuFragment:bottom_sheet_profile:3:button:1723336887.856::,ProfileMediaTabFragment:self_profile:4:button:1723336888.810::,UserOptionsFragment:settings_category_options:5:button:1723336889.440::,AddAccountBottomSheetFragment:add_account_bottom_sheet:6:button:1723336890.872::,LoginLandingFragment:login_landing:7:button:1723336894.126::',
+    'X-Fb-Connection-Type: WIFI',
+    'X-Ig-Connection-Type: WIFI',
+    'X-Ig-Capabilities: 3brTv10=',
+    'X-Ig-App-Id: 567067343352427',
+    'Priority: u=3',
+    'User-Agent: Instagram 275.0.0.27.98 Android (28/9; 320dpi; 1080x1920; samsung; SM-G977N; d2q; qcom; tr_TR; 458229257)',
+    'Accept-Language: tr-TR, en-US',
+    'X-Mid: ZlTptgABAAFCTS3QkVe6ju4i72cw',
+    'Ig-Intended-User-Id: 0',
+    'Content-Type: application/x-www-form-urlencoded; charset=UTF-8',
+  'Content-Length: ' . (is_null($data) ? 0 : strlen($data)),
 'Accept-Encoding: identity',
-'X-Fb-Http-Engine: Liger',
-'X-Fb-Client-Ip: True',
-'X-Fb-Server-Cluster: True',
+    'X-Fb-Http-Engine: Liger',
+    'X-Fb-Client-Ip: True',
+    'X-Fb-Server-Cluster: True',
     ];
+	
+
 
     if (!is_null($token)) {
         $headers[] = 'Authorization: Bearer' . $token;
@@ -287,6 +289,7 @@ public function getHeaders($token = null, $uid = null, $data = null) {
 
     return $headers;
 }
+
 
 	
 	
