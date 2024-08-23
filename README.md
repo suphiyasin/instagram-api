@@ -116,7 +116,7 @@ and returns server responses.
 <!-- GETTING STARTED -->
 
 ## Updates
-.
+Added Instagram scores between your followers (its your secret love or something ? )
 
 
 ## Getting Started
