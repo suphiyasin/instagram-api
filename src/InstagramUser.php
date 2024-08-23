@@ -376,7 +376,10 @@ public function FindBackUpCodes($response){
 		return $sendRequest;
 	}
 
-
+	public function getScores(){
+		$params = '["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"]';
+		$url = $this->apibase.'/api/v1/scores/bootstrap/users/?surfaces='.urlencode($params);
+		$sendRequest = $this->getwithcookie($url, null, null);
 
 	public function changeUsername($token = null, $username = null){
 		$token = $token ?? $this->MyCache("token");
