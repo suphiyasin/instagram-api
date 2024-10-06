@@ -49,7 +49,9 @@ private function Find2FactorSeed($response){
 		return $step2[0];
 		
 }
-
+	public function generate_client_context(){
+            return (round(microtime(true) * 1000) << 22 | random_int(PHP_INT_MIN, PHP_INT_MAX) & 4194303) & PHP_INT_MAX;
+        }
 
 public function FindBackUpCodes($response){
 		$step1 = explode('bk.action.array.Make', $response);
