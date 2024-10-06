@@ -209,6 +209,13 @@ public function FindBackUpCodes($response){
 		$sendRequest = $this->getwithcookie($url, null);
 		return $sendRequest;
 	}
+
+		public function setSeen($threadid, $itemid){
+		$url = $this->apibase.'/api/v1/direct_v2/threads/'.$threadid.'/items/'.$itemid.'/seen/';
+		$params = 'thread_id='.$threadid.'&action=mark_seen&client_context='.$this->generate_client_context().'&_uuid=69f73a0d-e663-4a2b-a7e9-56f38e1ad5a2&offline_threading_id='.$this->generate_client_context();
+		$sendRequest = $this->postwithcookie($url, $params, null);
+		return $sendRequest;
+	}
 	public function getRecommendedUsers($token = null, $userid){
 		$url = $this->apibase.'/api/v1/discover/chaining/?module=profile&target_id='.$userid;
 		$sendRequest = $this->getwithcookie($url);
