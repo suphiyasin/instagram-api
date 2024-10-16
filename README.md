@@ -27,7 +27,7 @@
 
 | Coin | Network | Wallet |
 | ------------- | ------------- | ------------- |
-| USDT | TRC-20 |  TRsWGn75MPwMgKaEuETPqB4P67e6w9L9JT |
+| USDT | TRC-20 |  TMifY3ki5Hiu82RJYxX3BAxEQYiFAAanvH |
 
 # Packet Features
 
